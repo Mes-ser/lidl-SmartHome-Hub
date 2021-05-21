@@ -1,0 +1,35 @@
+DECIMAL       HEXADECIMAL     DESCRIPTION
+------------------------------------------------------------------------------------------------------------------------
+4800          0x12C0          LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed
+                              size: 77920 bytes
+141336        0x22818         LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed
+                              size: 3217476 bytes
+2097152       0x200000        Squashfs filesystem, little endian, version 4.0, compression:xz, size: 918390 bytes, 166
+                              inodes, blocksize: 131072 bytes, created: 2038-01-29 00:53:20
+4325376       0x420000        JFFS2 filesystem, big endian
+4481672       0x446288        Zlib compressed data, compressed
+4481940       0x446394        JFFS2 filesystem, big endian
+4482064       0x446410        Zlib compressed data, compressed
+4482916       0x446764        JFFS2 filesystem, big endian
+4483040       0x4467E0        Zlib compressed data, compressed
+4483428       0x446964        JFFS2 filesystem, big endian
+4483552       0x4469E0        Zlib compressed data, compressed
+4483896       0x446B38        JFFS2 filesystem, big endian
+4484024       0x446BB8        Zlib compressed data, compressed
+4484216       0x446C78        JFFS2 filesystem, big endian
+4484340       0x446CF4        Zlib compressed data, compressed
+4485760       0x447280        Zlib compressed data, compressed
+4485912       0x447318        JFFS2 filesystem, big endian
+4633864       0x46B508        Zlib compressed data, compressed
+4635888       0x46BCF0        Zlib compressed data, compressed
+4637144       0x46C1D8        Zlib compressed data, compressed
+4638536       0x46C748        Zlib compressed data, compressed
+4639948       0x46CCCC        Zlib compressed data, compressed
+4640956       0x46D0BC        Zlib compressed data, compressed
+4641744       0x46D3D0        Zlib compressed data, compressed
+4642464       0x46D6A0        Zlib compressed data, compressed
+4643472       0x46DA90        Zlib compressed data, compressed
+4644956       0x46E05C        Zlib compressed data, compressed
+4646452       0x46E634        JFFS2 filesystem, big endian
+4646576       0x46E6B0        Zlib compressed data, compressed
+4647208       0x46E928        JFFS2 filesystem, big endian
