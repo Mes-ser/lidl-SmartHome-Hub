@@ -39,8 +39,10 @@ flashrom --programmer ch341a_spi -c GD25Q127C/GD25Q128C -r gw_backup.bin
 
 Now you can use Binwalk to see whats inside this image, but for me it didn't work.
 `binwalk` was discovering a lot of zlib file headers and automatic extraction was absolute mess - After a lot of try and error I flashed dumped image (Don't know why...) and bricked my HUB (Maybe somewhere I changed something)
-Long story short - Puchased second HUB and started again but this time I was more carefull.
+
 >In meantime learned that binwalk has some issues when maching file headers
+
+Long story short - Puchased second HUB and started again but this time I was more carefull.
 
 After dumping new image I used `extract.py` to extract individual images which gave me:
 - boot+cfg offset=0x0 size=0x20000 erasesize=0x10000
@@ -52,7 +54,7 @@ Linux file systsem
 - tuya-label offset=0x400000 size=0x20000 erasesize=0x10000
 - jffs2-fs offset=0x420000 size=0xbe0000 erasesize=0x10000
 
-Then using `jefferson` for jffs2-fs and `unsquashfs` for rootfs successfuly aquired access to files and files systsem.
+Then using `jefferson` for jffs2-fs and `unsquashfs` for rootfs successfuly aquired access to files and file system.
 
 ### rootfs
 ### jffs2-fs
