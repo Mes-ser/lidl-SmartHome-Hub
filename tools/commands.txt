@@ -1,0 +1,2 @@
+>>> dif dla tuya_user.db miedzy gw1 gw2 <<<
+binwalk -W --red gw1/jffs2-root/fs_1/tuya_user2/tuya_user.db gw2/jffs2-root/fs_1/tuya_user2/tuya_user.db

@@ -1,0 +1,1 @@
+flashrom --programmer ch341a_spi -c GD25Q127C/GD25Q128C -r gw2_backup_working.bin
