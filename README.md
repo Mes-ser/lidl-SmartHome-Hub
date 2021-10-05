@@ -6,7 +6,7 @@ _My journey with Lidl smart home hub_
 - For fun
 - Discovering how it works
 - Trying new tools
-- Understunding how Linux starts and works
+- Understunding how Linux boot and works
 - And a lot more
 
 ## Current progress
